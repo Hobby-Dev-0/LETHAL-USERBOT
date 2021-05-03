@@ -1,4 +1,11 @@
-#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam
+# LETHAL PROJECT
+# DARK COBRA IMPROVED EDITION 
+# CREDITS : DANISH
+# DEV : DANISH
+# GNU LICENSED PROJECT
+# CERTIFIED SAFE APPLICATION
+# PLUGIN IS SAFE 
+# DC = LETHAL
 marculs=9
 from telethon.errors.rpcerrorlist import (UserIdInvalidError,
                                             MessageTooLongError)
@@ -43,8 +50,9 @@ async def get_full_user(event):
         except Exception as err:
             return await event.edit("Error... Please report at @Dark_cobra_support_group", str(err))           
     return user_obj, extra
+# LETHAL CO-ORPERATION GNU LICENSED PROJECT
+# RESERVED COPYRIGHT (c) 2021
 
-#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam
 global hawk,moth
 hawk="admin"
 moth="owner"
