@@ -1,4 +1,6 @@
-
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 from telethon import events
 from userbot.utils import admin_cmd
 from asyncio import sleep
