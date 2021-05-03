@@ -1,3 +1,6 @@
+# PROJECT LETHAL USERBOT 
+# COPYRIGHT RESERVED 
+# APACHE LICENSED 2.0
 from userbot import bot
 from telethon import events
 from pathlib import Path
