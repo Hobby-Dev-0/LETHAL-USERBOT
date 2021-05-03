@@ -13,6 +13,7 @@ import userbot.utils
 from userbot.utils import *
 from userbot import CMD_HELP
 @borg.on(admin_cmd(pattern="sqlsend (?P<shortname>\w+)$"))
+@borg.on(sudo_cmd(pattern="sqlsend (?P<shortname>\w+)$"))
 async def send(event):
     if event.fwd_from:
         return
