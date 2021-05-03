@@ -1,3 +1,8 @@
+# LETHAL CO-ORPERATION
+# COPYRIGHT RESERVED (c) 2021 
+# DARK COBRA RAIDERS EDITION
+
+
 from asyncio import sleep
 from os import remove
 from telethon import events
