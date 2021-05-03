@@ -1,7 +1,6 @@
 
 from telethon import events
 from userbot.utils import admin_cmd
-#
 from asyncio import sleep
 from os import remove
 from userbot import CMD_HELP
