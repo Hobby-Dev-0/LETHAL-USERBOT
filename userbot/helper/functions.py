@@ -1,3 +1,7 @@
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021 
+
 import requests , os, re, time
 from bs4 import BeautifulSoup
 from asyncio import sleep
