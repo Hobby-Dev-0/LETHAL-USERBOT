@@ -1,3 +1,5 @@
+# PROJECT LETHAL USERBOT 
+#   APACHE LICENSED / COPYRIGHT RESERVED BY LETHAL ARMY
 import os
 
 ENV = bool(os.environ.get("ENV", False))
