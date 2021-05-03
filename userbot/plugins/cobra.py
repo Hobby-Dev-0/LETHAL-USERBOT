@@ -1,14 +1,7 @@
-# Darkcobra Original 🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍
-# kangers Keep Credits 😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒😒
-# Made by Dc-Team
-# Don't remove these lines u fool ,,, 
-#
-#
-#hehehhe
-#Making The Back Command Was The Toughest Work #by @Shivam_Patel,@The_Siddharth_Nigam,@danish_00,@ProgrammingError also v changed Pop up or inline help to text
-#A stark bhai chori karna aaya ho kya friday me ek bar back btn kang kar k man nahi bhara 
-#Agar stark nahi ho to kon hai be tu jo bhi hai kang karna he aaya hai mera back , open btn so get lost
-# aur  unload load back close open kang kara ya idea bhi le to credit dena pehli 6 line nahi to bhut bura hoga tumara sath
+# DARK COBRA IMPROVED EDITION
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 from math import ceil
 import asyncio
 import json
@@ -19,19 +12,8 @@ from telethon.tl.custom import Button
 from telethon import events, errors, custom, functions
 from userbot import CMD_LIST, CMD_HELP
 import io
-#ABEE O KANGAR  BACK OPEN CLSE BTN KANG KIYA TO YE LONE CHIPKA DENA AUR GLOBALS K BINA NAHI CHALAGA aur global 5 gaja diff name and manipulation se imported hai 
-#Making The Back Command Was The Toughest Work #by @Shivam_Patel,@The_Siddharth_Nigam,@danish_00,@ProgrammingError also v changed Pop up or inline help to text
 from userbot.utils import remove_plugin,load_module
-#Making The Back Command Was The Toughest Work #by @Shivam_Patel,@The_Siddharth_Nigam,@danish_00,@ProgrammingError also v changed Pop up or inline help to text
-#A stark bhai chori karna aaya ho kya friday me ek bar back btn kang kar k man nahi bhara 
-#Agar stark nahi ho to kon hai be tu jo bhi hai kang karna he aaya hai mera back , open btn so get lost
 if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
-
-# 🇦 🇦 🇵     🇾 🇦 🇭 🇦    🇦 🇦 🇾 🇪    🇰 🇮 🇸     🇱 🇮 🇾 🇪 ??
-
-# 🇨 🇭 🇦 🇱 🇴      🇸 🇮 🇷    🇵 🇱 🇪 🇦 🇸 🇪    🇬 🇪 🇹 🇴 🇺 🇹    
-
-
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"open")))
    
@@ -43,8 +25,6 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             else:
                 reply_pop_up_alert = "Please get your own Userbot,for more info visit @DARK_COBRA_SUPPORT!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-       
-  #       🇮 🇹 🇳 🇦    🇰 🇾 🇺   🇸 🇵 🇾     🇰 🇷    🇷 🇭 🇪     🇭 🇴      🇸 🇭 🇦 🇦 🇩 🇮    🇰 🇷 🇳 🇮    🇭    🇰 🇾 🇦   🇧 🇸 🇩 🇰 
 
     @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
     async def inline_handler(event):
@@ -91,16 +71,15 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             
             await event.edit(buttons=dc)
         else:
-              TheDark = "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+              TheDark = "GET UR OWN USERBOT AND JOIN @LETHAL_SUPPORT "
               await event.answer(TheDark, cache_time=0, alert=True)
- #hehehehehhehhehhehe   
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             danish = custom.Button.inline("◤✞ 𝕺𝖕𝖊𝖓 𝕸𝖆𝖎𝖓 𝕸𝖊𝖓𝖚 𝕬𝖌𝖆𝖎𝖓 ✞◥", data="open")
             await event.edit("`Main Menu Has Been Closed`", buttons=danish)
         else:
-            reply_pop_up_alert = "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+            reply_pop_up_alert = "GET UR OWN USERBOT AND JOIN @LETHAL_SUPPORT FOR ANY HELP"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
    
 
@@ -112,7 +91,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     )
     async def on_plug_in_callback_query_handler(event):
         if not event.query.user_id == bot.uid:
-            atul= "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+            atul= "GET UR OWN USERBOT AND JOIN @LETHAL_SUPPORT FOR HELP"
             await event.answer(atul, cache_time=0, alert=True)
             return
         plugin_name = event.data_match.group(1).decode("UTF-8")
@@ -133,7 +112,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 
         reply_pop_up_alert = help_string
         reply_pop_up_alert += (
-            "\n\n __Click on buttons below to load or unload them..report us if you find any bug__\n\n **©DARKCOBRA USERBOT**".format(plugin_name)
+            "\n\n __Click on buttons below to load or unload them..report us if you find any bug__\n\n **©LETHAL USERBOT**".format(plugin_name)
         )
         try:
             if event.query.user_id == bot.uid :
@@ -155,7 +134,6 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
               if event.query.user_id == bot.uid :
                     
-#  🇦 🇷 🇪      🇧 🇸 🇩 🇰      🇮 🇸 🇸 🇪    🇰 🇦 🇳 🇬  🇲 🇦 🇹   🇰 🇷    🇷 🇪   🇲 🇨 
                     
                     try:
                         fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
@@ -229,7 +207,3 @@ def paginate_help(page_number, loaded_plugins, prefix):
              custom.Button.inline("•NEXT•", data="{}_next({})".format(prefix, modulo_page)))
         ]
     return pairs
-
-# chal nikal 
-# gtfo
-# SED aagye aap😂
