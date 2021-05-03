@@ -1,3 +1,6 @@
+# GNU LICENSED APPLICATION
+# COPYRIGHT RESERVED BY LETHAL CO-ORPERATION (C) 2021
+
 import time
 import os
 import sys
@@ -131,7 +134,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/DARK-COBRA/DARKCOBRA.git")
+    "https://github.com/LETHAL-ARMY/LETHAL-USERBOT")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
