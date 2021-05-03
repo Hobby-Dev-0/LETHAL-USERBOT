@@ -1,10 +1,9 @@
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 """Get Telegram Profile Picture and other information
 and set as own profile.
 Syntax: .clone @username"""
-#Copy That Plugin by @ViperAdnan
-#modified by @No_OnE_Kn0wS_Me 
-#Give credit if you are going to kang it.
-
 import html
 import os
 from telethon.tl.functions.photos import GetUserPhotosRequest
@@ -32,6 +31,7 @@ BOTLOG_CHATID = Config.PRIVATE_GROUP_BOT_API_ID
 BOTLOG = True
 
 @borg.on(admin_cmd(pattern="clone ?(.*)"))
+@borg.on(SUDO_cmd(pattern="clone ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
