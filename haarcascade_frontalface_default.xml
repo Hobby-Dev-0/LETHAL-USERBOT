@@ -1,3 +1,6 @@
+# Copyright(C)2021 / LETHAL CORPORATION/ALL RIGHTS RESERVED
+#          Third party copyrights are property of their respective owners.
+#
 <?xml version="1.0"?>
 <!--
     Stump-based 24x24 discrete(?) adaboost frontal face detector.
