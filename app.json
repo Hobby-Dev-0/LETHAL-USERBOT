@@ -56,7 +56,7 @@
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": ""
-       "required": true
+       "required" : true
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
