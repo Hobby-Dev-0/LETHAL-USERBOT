@@ -1,3 +1,5 @@
+# PROJECT LETHAL USERBOT 
+#   APACHE LICENSED / COPYRIGHT RESERVED BY LETHAL ARMY
 #!/usr/bin/env python3
 # (c) https://t.me/TelethonChat/37677
 # This Source Code Form is subject to the terms of the GNU
