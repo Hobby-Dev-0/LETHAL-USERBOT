@@ -1,5 +1,5 @@
 """CC- @refundisillegal\nSyntax:-\n.get var NAME\n.del var NAME\n.set var NAME"""
-
+# LETHAL ORG 
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 """
@@ -176,7 +176,7 @@ async def _(dyno):
             dyno.chat_id,
             "logs.txt",
             reply_to=dyno.id,
-            caption="DARK COBRA logs of 100+ lines",
+            caption="lethal logs of 100+ lines",
         )
         
         await asyncio.sleep(5)
