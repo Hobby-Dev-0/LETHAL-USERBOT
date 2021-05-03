@@ -11,7 +11,7 @@ import time
 from PIL import Image
 from io import BytesIO
 from userbot import ALIVE_NAME
-from userbot.utils import admin_cmd
+from userbot.utils import admin_cmd, sudo_cmd
 from userbot.__init__ import StartTime
 from datetime import datetime
 
@@ -62,7 +62,6 @@ async def amireallyalive(alive):
         tele += "` 🔸 SYSTEM CHECK :` **WORKING SUCCESSFULLY!**\n"
         tele += f"` 🔹 My Lovely owner`: {DEFAULTUSER}\n\n"
         tele += "    [✨ GitHub Repository ✨](https://github.com/LETHAL-ARMY/LETHAL-USERBOT)"
-DARK COBRA
         chat = await alive.get_chat()
         await alive.delete()
         """ For .alive command, check if the bot is running.  """
