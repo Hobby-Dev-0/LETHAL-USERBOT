@@ -1,3 +1,5 @@
+# LETHAL ARMY 
+
 from telethon import events
 
 import asyncio
@@ -26,9 +28,9 @@ async def _(event):
 
         animation_chars = [
 
-            "https://github.com/DARK-COBRA/DARKCOBRA",
+            "https://github.com/LETHAL-ARMY/LETHAL-USERBOT",
 
-            "https://github.com/DARK-COBRA/DARKCOBRA"
+            "https://github.com/LETHAL-ARMY/LETHAL-USERBOT"
         ]
 
         for i in animation_ttl:
