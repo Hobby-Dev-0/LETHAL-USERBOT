@@ -1,5 +1,8 @@
 
-# Now will be used in DARK COBRA too....
+# LETHAL USERBOT
+# G N U    LICENSED APPLICATION (c) 2021
+# COPYRIGHT RESERVED BY LETHAL CO-ORPERATION (c) 2021
+# CREDITS : DC
 
 import asyncio
 import datetime
