@@ -25,22 +25,12 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/67a7bfb1b9364e4149a83.jpg",
+      "value": "https://telegra.ph/file/3987e77c4d459c12e7203.jpg",
       "required": true
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -63,34 +53,15 @@
       "value": "",
       "required" : true
    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Needed for ocr.py, get it from ocr.space .",
-      "value": "",
-      "required": false
-    },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": ""
+       "required": true
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
       "value": "",
       "required": true
-    },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-      "value": "",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: hellboi-atul/hellboi-atul, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
@@ -122,15 +93,6 @@
       "value": "",
       "required": true
     },
-    "DOWNLOAD_PFP_URL_CLOCK": {
-      "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
-      "value": "",
-      "required": false
-    },
-    "OPEN_WEATHER_MAP_APPID": {
-      "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
-      "required": false
-    },
     "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
       "description": " Set The Amount Of Buttons Displayed In Help Command",
       "value": "7",
@@ -145,23 +107,7 @@
       "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
       "value": "📨",
       "required": true
-    },
-    "SUDO_USERS": {
-      "description": "Put The Id of that person whom u want to give access to use ur bot",
-      "value": "",
-      "required": false
     }, 
-    "TZ": {
-      "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
-      "required": false
-    },
-    "REDIRECTCHANNEL": {
-      "description": "Put You Channel Username Reflecting Your Info or Your Tags Etc",
-      "value": "",
-      "required": false 
-    }
-  },
   "addons": [
     {
       "plan": "heroku-postgresql",
