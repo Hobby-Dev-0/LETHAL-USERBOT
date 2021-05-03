@@ -1,8 +1,7 @@
-print(
-    "ㅤ\nㅤ\n\n\n\nㅤ\n┈┈┏━╮╭━┓┈╭━━━━━━╮\n┈┈┃┏┗┛┓┃╭┫ⓞⓘⓝⓚ ┃\n┈┈╰┓▋▋┏╯╯╰━━━━━━╯\n┈╭━┻╮╲┗━━━━╮╭╮┈\n┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n┈╰━┳┻▅╯╲╲╲╲┃┈┈┈\n┈┈┈╰━┳┓┏┳┓┏╯┈┈┈\n┈┈┈┈┈┗┻┛┗┻┛┈┈"
-)
+# PROJECT LETHAL USERBOT 
+#   APACHE LICENSED / COPYRIGHT RESERVED BY LETHAL ARMY
 print("\n\n\n\n\nHello sir!!, I'm Here To Help u to Generate Telethon String Session")
-print("\n\nDarkCobra UserBot")
+print("\n\n LETHAL USERBOT")
 
 print("\n\nProperly Fill APP_ID ,HASH and Number.\n")
 
@@ -11,19 +10,19 @@ from telethon.sessions import StringSession
 APP_ID = int(input("Enter APP ID here: "))
 API_HASH = input("Enter API HASH here: ")
 with TelegramClient(StringSession(), APP_ID, API_HASH) as hehe:
-	dcsession = hehe.session.save()
-	dcobra = hehe.send_message(
+	UB_SESSION = hehe.session.save()
+	LETHAL = hehe.send_message(
 	    "me",
-	    f"`{dcsession}`\n\n**Your DarkCobra String Session Here Sir😁😎😎\nClick on above Code to Copy it\n\nFor Support Join** @Dark_Cobra_Support_Group"
+	    f"`{UB_SESSION}`\n\n**Your LETHAL-USERBOT String Session Here Sir😁😎😎\nClick on above Code to Copy it\n\nJOIN @LETHAL_OT"
 	)
 
 print("\n\n############################\n")
 print(
-    "check your Telegram Saved Messages For Ur New String String Session 😂😂 or see below. ")
+    "HUI HUI ... HO GYA SAVED MSG KHOLO YA NEECHE DIA H STRING AB DEPLOY MAARO")
 
 print("\n############################\n")
 
 
-print(f"{dcsession}")
+print(f"{UB_SESSION}")
 
 Print(" ")
