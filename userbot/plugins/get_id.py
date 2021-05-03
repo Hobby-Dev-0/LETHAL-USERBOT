@@ -6,6 +6,7 @@ from userbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("get_id"))
+@borg.on(sudo_cmd("get_id"))
 async def _(event):
     if event.fwd_from:
         return
