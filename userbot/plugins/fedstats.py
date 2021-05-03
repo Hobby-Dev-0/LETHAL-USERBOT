@@ -1,7 +1,6 @@
-# Plugin to show the fed you are banned in.
-# For TeleBot
-# Kangers keep credits
-# By @Akash_AM1 and @xditya
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 
 import datetime
 import asyncio
