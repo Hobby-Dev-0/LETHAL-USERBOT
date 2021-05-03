@@ -6,6 +6,7 @@ from userbot.utils import admin_cmd
 from userbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="edd ?(.*)"))
+@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -24,7 +25,7 @@ async def _(event):
                     ))
                 except Exception as e:
                     await event.reply(str(e))
-            await event.edit("Added Successfully")
+            await event.edit("Added Successfully By LETHAL UB")
         else:
             for user_id in to_add_users.split(" "):
                 try:
@@ -34,7 +35,7 @@ async def _(event):
                     ))
                 except Exception as e:
                     await event.reply(str(e))
-            await event.edit("ADDED the user to the chat successfully.")
+            await event.edit("ADDED the user to the chat successfully By LETHAL UB ")
 CMD_HELP.update(
     {
         "adduser": 
