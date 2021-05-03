@@ -18,7 +18,6 @@ from telethon.tl.types import (ChannelParticipantsAdmins,
                                    ChatBannedRights,
                                      MessageEntityMentionName,
                                        MessageMediaPhoto)
-#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam
 from userbot.utils import register, errors_handler
 from userbot.utils import admin_cmd
 from userbot import bot as borg
@@ -66,6 +65,7 @@ async def get_user_from_id(user, event):
         return None
     return user_obj
 @borg.on(admin_cmd(pattern="gpromote ?(.*)"))
+@borg.on(sudo_cmd(pattern="gpromote?(.*)"))
 async def gben(userbot):
     dc = dark = userbot
     i = 0
@@ -113,9 +113,10 @@ async def gben(userbot):
     else:
         await dark.edit(f"**Reply to a user you dumbo !!**")
     return await dark.edit(
-        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 : {i} **"
+        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n By LETHAL : {i} **"
     )
 @borg.on(admin_cmd(pattern="gdemote ?(.*)"))
+@borg.on(sudo_cmd(pattern="gdemote?(.*)"))
 async def gben(userbot):
     dc = dark = userbot
     i = 0
@@ -163,6 +164,7 @@ async def gben(userbot):
     else:
         await dark.edit(f"**Reply to a user you dumbo !!**")
     return await dark.edit(
-        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 : {i} **"
+        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n by LETHAL USERBOT : {i} **"
     )
-#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam
+# LETHAL PROJECT (c) 2021 
+# DC WORKING AS LETHAL NOW
