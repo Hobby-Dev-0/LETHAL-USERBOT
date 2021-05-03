@@ -1,5 +1,7 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
-#
+# LETHAL CO-ORPERATION RESERVES ALL THE RIGHTS
+# GNU LICENSED APPLICATION
+# LETHAL CO-ORPERATION (C) 2021
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
@@ -86,7 +88,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "[DARK COBRA Support Chat](https://t.me/Dark_cobra_support)"
+                    link = "[LETHAL SUPPORT](https://t.me/lethal_support)"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
