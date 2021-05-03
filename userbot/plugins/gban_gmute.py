@@ -1,10 +1,9 @@
-# brought to you here(DARK COBRA) by... @hellboi_atul ..
-# Don't remove these lines else Gey...
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 
-# _______________________________________________________________________________________________________________
 
-
-from userbot import bot, CMD_HELP
+from userbot import bot, CMD_HELP, ADMIN_CMD, SUDO_CMD
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from userbot.utils import admin_cmd
 import html
@@ -56,6 +55,7 @@ async def get_user_from_id(user, event):
     return user_obj
 
 @borg.on(admin_cmd(pattern="gben ?(.*)"))
+@borg.on(sudo_cmd(pattern="gben ?(.*)"))
 async def gben(userbot):
     dc = userbot
     sender = await dc.get_sender()
@@ -122,6 +122,7 @@ async def gben(userbot):
 
 
 @borg.on(admin_cmd(pattern="ungben ?(.*)"))
+@borg.on(SUDO_cmd(pattern="ungben ?(.*)"))
 async def gunben(userbot):
     dc = userbot
     sender = await dc.get_sender()
