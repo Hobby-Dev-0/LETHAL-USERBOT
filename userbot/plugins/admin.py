@@ -68,7 +68,8 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 
 
 #@register(outgoing=True, pattern="^.setgpic$")
-@borg.on(admin_cmd(pattern=r"setgpic"))
+@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def set_group_photo(gpic):
     """ For .setgpic command, changes the picture of a group """
@@ -107,6 +108,9 @@ async def set_group_photo(gpic):
 
 
 #@register(outgoing=True, pattern="^.promote(?: |$)(.*)")
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
 @bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
