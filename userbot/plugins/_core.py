@@ -1,3 +1,6 @@
+# GNU LICENSED APPLICATION
+# ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
+# SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
 import asyncio
 import os
 from datetime import datetime
@@ -9,8 +12,8 @@ from userbot.utils import admin_cmd, load_module, remove_plugin, sudo_cmd
 from userbot.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 3
-thumb_image_path = "./Resources/IMG_20201005_150245_168.jpg"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DarkCobra"
+thumb_image_path = "https://telegra.ph/file/e763c648ab93aae019e31.png"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LETHAL USERBOT"
 
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
@@ -89,10 +92,10 @@ async def unload(event):
     shortname = event.pattern_match["shortname"]
     try:
         remove_plugin(shortname)
-        qwe = await eor(event, f"DarkCobra Has Successfully unloaded {shortname}")
+        qwe = await eor(event, f"Lethal UserBot Has Successfully unloaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            "Darkcobra has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
+            "Lethal UserBot has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
         )
 
 
@@ -111,5 +114,5 @@ async def load(event):
         qwe = await eor(event, f"Successfully loaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            f"DarkCobra could not load {shortname} because of the following error.\n{str(e)}"
+            f"Lethal UserBot could not load {shortname} because of the Unsecure | ERROR .\n{str(e)}"
         )
