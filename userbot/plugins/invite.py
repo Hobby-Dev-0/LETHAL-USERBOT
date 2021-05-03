@@ -1,3 +1,6 @@
+# GNU LICENSED PROJECT
+# COPYRIGHT RESERVED TO LETHAL ORG. (c) 2021
+
 """Invite the user(s) to the current chat
 Syntax: .invite <User(s)>"""
 
@@ -36,4 +39,4 @@ async def _(event):
                     ))
                 except Exception as e:
                     await event.reply(str(e))
-            await event.edit("Invited Successfully")
+            await event.edit("Invited Successfully By Lethal UB")
