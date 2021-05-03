@@ -19,7 +19,7 @@ from telethon.tl.types import (ChannelParticipantsAdmins,
                                      MessageEntityMentionName,
                                        MessageMediaPhoto)
 from userbot.utils import register, errors_handler
-from userbot.utils import admin_cmd
+from userbot.utils import admin_cmd, sudo_cmd
 from userbot import bot as borg
 async def get_full_user(event):  
     args = event.pattern_match.group(1).split(':', 1)
@@ -47,7 +47,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("Error... Please report at @Dark_cobra_support_group", str(err))           
+            return await event.edit("Error... Please report at @lethal_support sar", str(err))           
     return user_obj, extra
 # LETHAL CO-ORPERATION GNU LICENSED PROJECT
 # RESERVED COPYRIGHT (c) 2021
