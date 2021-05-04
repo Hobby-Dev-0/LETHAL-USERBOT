@@ -3,7 +3,7 @@ import os
 import time
 from datetime import datetime
 
-from userbot.utils import admin_cmd, progress
+from userbot.utils import admin_cmd, progress, sudo_cmd
 from userbot import CMD_HELP
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "thumb_image.jpg"
