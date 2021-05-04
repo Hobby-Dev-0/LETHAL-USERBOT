@@ -10,6 +10,7 @@ thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "thumb_image.jpg"
 
 
 @borg.on(admin_cmd(pattern="rename (.*)"))
+@borg.on(sudo_cmd(pattern="rename (.*)"))
 async def _(event):
     if event.fwd_from:
         return
