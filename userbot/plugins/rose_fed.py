@@ -13,6 +13,7 @@ naam = str(ALIVE_NAME)
 bot = "@Missrose_bot"
 
 @borg.on(admin_cmd("createfed ?(.*)"))
+@borg.on(sudo_cmd("createfed ?(.*)", allow_sudo=true))
 async def _(event):
     if event.fwd_from:
         return    
