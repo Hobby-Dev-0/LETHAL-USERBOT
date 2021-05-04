@@ -2,10 +2,11 @@
 '''
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from uniborg.util import admin_cmd
+from uniborg.util import admin_cmd, sudo_cmd
 
 #@command(outgoing=True, pattern=r"^.mute ?(\d+)?")
 @borg.on(admin_cmd(pattern="mute ?(\d+)?"))
+@borg.on(sudo_cmd(pattern="mute ?(\d+)?"))
 async def startmute(event):
     private = False
     if event.fwd_from:
@@ -50,6 +51,7 @@ async def startmute(event):
 
 #@command(outgoing=True, pattern=r"^.unmute ?(\d+)?")
 @borg.on(admin_cmd(pattern="unmute ?(\d+)?"))
+@borg.on(sudo_cmd(pattern="unmute ?(\d+)?"))
 async def endmute(event):
     private = False
     if event.fwd_from:
