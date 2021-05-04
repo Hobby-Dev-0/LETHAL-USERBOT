@@ -1,5 +1,5 @@
-#Ported from Nana remix by @buddhhu
-#imported admin_cmd for DC by @hellboi_atul
+# IMPORTED ADMIN_CMD BYY @MONSTER_X7_GANGSTER
+# PROJECT LETHAL 
 import pygments, os, asyncio
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
