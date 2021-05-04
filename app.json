@@ -34,30 +34,15 @@
       "value": "",
       "required": true
     },
-    "AUTONAME": {
-      "description": "Fill your Name which will show on .autoname cmd nd used in .revert cmd when u use .clone.",
-      "value": "",
-      "required": false
-    },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
       "value": "",
-      "required": true
-    },
-    "ALIVE_PHOTTO": {
-      "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
       "required": true
     },
     "DEFAULT_BIO": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
       "value": "",
       "required": false
-    },
-    "PMPERMIT_PIC": {
-      "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
-      "required": true
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
