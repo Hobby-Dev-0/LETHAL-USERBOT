@@ -18,6 +18,7 @@ from uniborg.util import admin_cmd
  
  
 @borg.on(admin_cmd("sca ?(.*)"))
+@borg.on(sudo_cmd("sca ?(.*)", allow_sudo=true))
 async def _(event):
     if event.fwd_from:
         return
