@@ -1,6 +1,6 @@
 {
   "name": "ℓєтнαℓ υѕєявσт",
-  "description": "| IMPROVED VERSION | BLAZING FAST USERBOT MADE BY ℓєтнαℓ αяму | CERTIFIED USERBOT, WITH SAFE PLUGINS, LICENSED APPLICATION | APACHE 2.0 COPYRIGHT | RAIDERS EDITION | FASTEST USERBOT ",
+  "description": " | IMPROVED VERSION | BLAZING FAST USERBOT MADE BY ℓєтнαℓ αяму | CERTIFIED USERBOT, WITH SAFE PLUGINS, LICENSED APPLICATION | APACHE 2.0 COPYRIGHT | RAIDERS EDITION | FASTEST USERBOT  ",
   "logo": "https://telegra.ph/file/098c651077c9039dc30de.png ",
     "keywords": [
     "telegram",
@@ -13,14 +13,19 @@
   "website": "https://github.com/LETHAL-ARMY/LETHAL-USERBOT/",
   "success_url": "https://t.me/LETHAL_SUPPORT",
   "stack": "container",
-  "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
+   "ALIVE_NAME": {
+   "description": "Fill your Full name | not matters ",
+   "value": "LETHAL USER",
+   "required": true
+    },  
+    "ALIVE_PHOTTO": {
+      "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
+      "value": "https://telegra.ph/file/67a7bfb1b9364e4149a83.jpg",
+      "required": true
     },
-    "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @hellboi_atul.",
-      "value": "",
+    "PMPERMIT_PIC": {
+      "description": "put here any telegraph media link for pmpermit custom pic.",
+      "value": "https://telegra.ph/file/3987e77c4d459c12e7203.jpg",
       "required": true
     },
     "APP_ID": {
@@ -43,9 +48,15 @@
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": ""
    },
+    "TAG_LOG": {
+      "description": "Create a group where u want ur tags logs will come add rose bot then get id ,set value, if not then leave blank  ",
+      "value": "",
+      "required" : true
+   },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": ""
+       "required" : true
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
@@ -60,19 +71,43 @@
     "HEROKU_APP_NAME": {
       "description": "The Value of App Name you filled in right on top.Required for updater to work.",
       "value": "",
-      "required": true
+      "required": false
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
       "value": "",
       "required": true
     },
+    "CHROME_BIN": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.apt/usr/bin/google-chrome",
+      "required": false
+    },
+    "CHROME_DRIVER": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.chromedriver/bin/chromedriver",
+      "required": false
+    },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
       "value": "",
       "required": true
-    }
-  }
+    },
+    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
+      "description": " Set The Amount Of Buttons Displayed In Help Command",
+      "value": "7",
+      "required": true
+    },
+    "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
+      "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
+      "value": "2",
+      "required": true
+    },
+    "EMOJI_TO_DISPLAY_IN_HELP": {
+      "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
+      "value": "📨",
+      "required": true
+    }, 
   "addons": [
     {
       "plan": "heroku-postgresql",
