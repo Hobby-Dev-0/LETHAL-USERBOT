@@ -1,1 +1,1 @@
-# DarkCobra Assistant
+# LETHAL ASSISTANT
