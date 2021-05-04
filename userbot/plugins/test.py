@@ -12,6 +12,7 @@ from userbot.utils import admin_cmd
 from userbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="test ?(.*)"))
+@borg.on(sudo_cmd(pattern="test ?(.*)",allow_sudo=true))
 async def _(event):
     if event.fwd_from:
         return
@@ -24,7 +25,7 @@ async def _(event):
         as_document = True
     elif input_str == "text":
         as_text = True
-    await event.edit("`Calculating ur ⚜️DarkCobra⚜️ Server Speed. Please wait!`")
+    await event.edit("`Calculating ur ⚜️LETHAL⚜️ Server Speed. Please wait!`")
     start = datetime.now()
     s = speedtest.Speedtest()
     s.get_best_server()
