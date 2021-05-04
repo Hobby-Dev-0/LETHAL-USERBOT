@@ -4,7 +4,7 @@ import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-from userbot.utils import admin_cmd
+from userbot.utils import admin_cmd, sudo_cmd
 from userbot import CMD_HELP
 
 telegraph = Telegraph()
@@ -80,7 +80,7 @@ async def _(event):
             ms = (end - start).seconds
             await event.edit("Pasted to https://telegra.ph/{} in {} seconds.".format(response["path"], ms), link_preview=True)
     else:
-        await event.edit("Reply to a message to get a permanent telegra.ph link. (Inspired by @ControllerBot)")
+        await event.edit("Reply to a message to get a permanent telegra.ph link.")
 
 
 def resize_image(image):
