@@ -1,14 +1,11 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
+
 """ Userbot plugin_info command """
 
 from userbot import CMD_HELP
 from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(outgoing=True, pattern="plinfo(?: |$)(.*)"))
+@borg.on(sudo_cmd(outgoing=True, pattern="plinfo(?: |$)(.*)"))
 async def info(event):
     """ For .plinfo command,"""
     args = event.pattern_match.group(1).lower()
@@ -19,7 +16,7 @@ async def info(event):
             await event.edit("Maybe the command help or plugin info has not been set or the plugin is invalid...")
     else:
         await event.edit("Please specify which plugin do you want help for !!\
-            \nUsage: .pinfo <plugin name>")
+            \nUsage: .pinfo <plugin name>\n IF NEED HELP VISIT @LETHAL_SUPPORT")
         string = ""
         for i in CMD_HELP:
             string += "`" + str(i)
