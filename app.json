@@ -71,7 +71,7 @@
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
       "value": "",
       "required": true
-    },
+    }
   },
   "addons": [
     {
