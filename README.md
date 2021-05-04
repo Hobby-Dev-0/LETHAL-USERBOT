@@ -1,10 +1,11 @@
-# POWERED BY LETHAL ARMY 
+# POWERED BY LETHAL ARMY
+ [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LETHAL-ARMY/LETHAL-USERBOT)
+
 <div dir="ltr" style="text-align: left;" trbidi="on">
 <h3 style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 1.25em; line-height: 1.25; margin-bottom: 16px; margin-top: 0px !important;">
 𝙇𝙀𝙏𝙃𝘼𝙇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏</h3>
 <div style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 16px;">
 ᴛʜᴇ ᴜsᴇʀʙᴏᴛ</div>
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LETHAL-ARMY/LETHAL-USERBOT)
 <div dir="ltr" style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 0px !important;">
 <h1 style="border-bottom: 1px solid rgb(234, 236, 239); box-sizing: border-box; line-height: 1.25; margin: 24px 0px 16px; padding-bottom: 0.3em;">
 <a aria-hidden="true" class="anchor" href="https://github.com/hellboi-atul/hellboi-atul/blob/master/README.md#jarvis" id="user-content-jarvis" style="background-color: initial; box-sizing: border-box; color: #0366d6; float: left; line-height: 1; margin-left: -20px; padding-right: 4px; text-decoration-line: none;"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path></svg></a>LETHAL FIGHTERS</h1>
