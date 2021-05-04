@@ -9,10 +9,11 @@ from telethon.tl.types import UserStatusEmpty, UserStatusLastMonth, UserStatusLa
 from telethon.tl import functions, types
 from time import sleep
 import asyncio
-from uniborg.util import admin_cmd
+from uniborg.util import admin_cmd, sudo_cmd
 
 
 @borg.on(admin_cmd(pattern="unbanall ?(.*)"))
+@borg.on(sudo_cmd(pattern="unbanall ?(.*)",allow_sudo=true))
 async def _(event):
     if event.fwd_from:
         return
