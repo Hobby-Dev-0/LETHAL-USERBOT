@@ -68,8 +68,8 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 
 
 #@register(outgoing=True, pattern="^.setgpic$")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"setgpic (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"setgpic (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def set_group_photo(gpic):
     """ For .setgpic command, changes the picture of a group """
@@ -111,8 +111,8 @@ async def set_group_photo(gpic):
 # GNU LICENSED APPLICATION
 # ALL COPYRIGHTS RESERVED BY LETHAL CO-ORPERATION (C) 2021
 # SAFE APPLICATION CERTIFIED BY G.N.U ORGANISATION (c) 2021
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"promote (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"promote (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def promote(promt):
     """ For .promote command, promotes the replied/tagged person """
@@ -164,8 +164,8 @@ async def promote(promt):
 
 
 #@register(outgoing=True, pattern="^.demote(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"demote (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"demote (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def demote(dmod):
     """ For .demote command, demotes the replied/tagged person """
@@ -216,8 +216,8 @@ async def demote(dmod):
 
 
 #@register(outgoing=True, pattern="^.ban(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"ban (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"ban (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def ban(bon):
     """ For .ban command, bans the replied/tagged person """
@@ -272,8 +272,8 @@ async def ban(bon):
 
 
 #@register(outgoing=True, pattern="^.unban(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"unban (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"unban (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def nothanos(unbon):
     """ For .unban command, unbans the replied/tagged person """
@@ -312,8 +312,8 @@ async def nothanos(unbon):
 
 
 #@register(outgoing=True, pattern="^.mute(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"mute (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"mute (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def spider(spdr):
     """
@@ -375,8 +375,8 @@ async def spider(spdr):
 
 
 #@register(outgoing=True, pattern="^.unmute(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"unmute (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"unmute (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def unmoot(unmot):
     """ For .unmute command, unmute the replied/tagged person """
@@ -458,8 +458,8 @@ async def muter(moot):
 
 
 #@register(outgoing=True, pattern="^.ungmute(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"ungmute (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"ungmute (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def ungmoot(un_gmute):
     """ For .ungmute command, ungmutes the target in the userbot """
@@ -504,8 +504,8 @@ async def ungmoot(un_gmute):
 
 
 #@register(outgoing=True, pattern="^.gmute(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"gmute (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"gmute (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def gspider(gspdr):
     """ For .gmute command, globally mutes the replied/tagged person """
@@ -625,8 +625,8 @@ async def rm_deletedacc(show):
 
 
 #@register(outgoing=True, pattern="^.adminlist$")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"adminlist (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"adminlist (?P<shortname>\w+)", allow_sudo=True))
 async def get_admin(show):
     """ For .admins command, list all of the admins of the chat. """
     info = await show.client.get_entity(show.chat_id)
@@ -647,8 +647,8 @@ async def get_admin(show):
 
 
 #@register(outgoing=True, pattern="^.pin(?: |$)(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"pin (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"pin (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def pin(msg):
     if msg.fwd_from:
@@ -688,6 +688,7 @@ async def pin(msg):
 
 #@register(outgoing=True, pattern="^.kick(?: |$)(.*)")
 @borg.on(admin_cmd(pattern=r"kick(?: |$)(.*)"))
+@borg.on(sudo_cmd(pattern=r"kick(?: |$)(.*)"allow_sudo=true))
 @errors_handler
 async def kick(usr):
     """ For .kick command, kicks the replied/tagged person from the group. """
@@ -731,8 +732,8 @@ async def kick(usr):
 
 
 #@register(outgoing=True, pattern="^.users ?(.*)")
-@bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)"))
-@bot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"users (?P<shortname>\w+)"))
+@bot.on(sudo_cmd(pattern=r"users (?P<shortname>\w+)", allow_sudo=True))
 @errors_handler
 async def get_users(show):
     """ For .users command, list all of the users in a chat. """
