@@ -4,7 +4,6 @@
 𝙇𝙀𝙏𝙃𝘼𝙇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏</h3>
 <div style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 16px;">
 ᴛʜᴇ ᴜsᴇʀʙᴏᴛ</div>
-<div style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 16px;">
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LETHAL-ARMY/LETHAL-USERBOT)
 <div dir="ltr" style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 0px !important;">
 <h1 style="border-bottom: 1px solid rgb(234, 236, 239); box-sizing: border-box; line-height: 1.25; margin: 24px 0px 16px; padding-bottom: 0.3em;">
