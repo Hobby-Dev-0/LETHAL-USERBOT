@@ -13,6 +13,7 @@ from userbot.utils import admin_cmd
 CHROME_BIN = "/usr/bin/google-chrome"
 
 @borg.on(admin_cmd(pattern="screenshot (.*)"))
+@borg.on(sudo_cmd(pattern="screenshot (.*)", allow_sudo=true))
 async def _(event):
     if event.fwd_from:
         return
@@ -46,7 +47,7 @@ async def _(event):
         if event.reply_to_msg_id:
             message_id = event.reply_to_msg_id
         with io.BytesIO(im_png) as out_file:
-            out_file.name = "DARK COBRA.ScreenCapture.PNG"
+            out_file.name = "LETHAL.ScreenCapture.PNG"
             await borg.send_file(
                 event.chat_id,
                 out_file,
