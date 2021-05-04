@@ -1,7 +1,3 @@
-#  LICENSE RESERVED BY PROJECT LETHAL UB
-#  APACHE LICENSED APPLICATION
-#  JOIN @LETHAL_OT FOR SUPPORT
-#  LETHAL RAIDERS ON FIRE
 import os 
 import subprocess
 from logging import DEBUG, INFO, basicConfig, getLogger, warning
