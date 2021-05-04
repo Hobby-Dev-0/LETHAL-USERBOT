@@ -20,10 +20,10 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
 global ghanti
 ghanti = borg.uid
 edit_time = 5
-file1 = "https://telegra.ph/file/6aa39732748ed7c319943.jpg"
-file2 = "https://telegra.ph/file/a6d72504bc09e71484a54.jpg"
-file3 = "https://telegra.ph/file/3cdbede1d5d85aa2d50fc.jpg"
-file4 = "https://telegra.ph/file/3dae01973943e8b28c931.jpg"
+file1 = "https://telegra.ph/file/f3cc12961473cafac688c.jpg"
+file2 = "https://telegra.ph/file/facc5d79ceb51d6ccd3fc.jpg"
+file3 = "https://telegra.ph/file/e3b40c104c8080275c27e.jpg"
+file4 = "https://telegra.ph/file/18d0a83bdb8eada63bfc8.jpg"
 
 
 @borg.on(admin_cmd(pattern=r"alive"))
