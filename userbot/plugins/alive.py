@@ -1,6 +1,7 @@
 # LETHAL CO-ORPERATION (C) 2021 
 # GNU LICENSED PROJECT 
 # RIGHTS RECERVED BY LETHAL (c) 2021
+#mc
 import asyncio
 import os
 import requests
@@ -15,18 +16,15 @@ from userbot import ALIVE_NAME, Lastupdate
 from . import dcdef
 from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
-
-# LETHAL CO-ORPERATION (C) 2021 
-# GNU LICENSED PROJECT 
-# RIGHTS RECERVED BY LETHAL (c) 2021
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LETHAL"
+# bgaag mc
 global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/f3cc12961473cafac688c.jpg"
-file2 = "https://telegra.ph/file/facc5d79ceb51d6ccd3fc.jpg"
-file3 = "https://telegra.ph/file/e3b40c104c8080275c27e.jpg"
+file1 = "https://telegra.ph/file/43741423152f5d053fb07.jpg"
+file2 = "https://telegra.ph/file/e3b40c104c8080275c27e.jpg"
+file3 = "https://telegra.ph/file/f3cc12961473cafac688c.jpg"
 file4 = "https://telegra.ph/file/18d0a83bdb8eada63bfc8.jpg"
 """ =======================CONSTANTS====================== """
 
@@ -44,7 +42,7 @@ async def hmm(yes):
     pm_caption += "**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n"
     pm_caption += "✘ About My System ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
-    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/lethal_support)\n"
+    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/lethal_upport)\n"
     pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝕋𝔼𝔸𝕄 𝕃𝔼𝕋ℍ𝔸𝕃](https://github.com/TEAM-LETHAL)\n"
     pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝕋𝔼𝔸𝕄 𝕃𝔼𝕋ℍ𝔸𝕃](https://github.com/TEAM-LETHAL/LETHAL_USERBOT)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
