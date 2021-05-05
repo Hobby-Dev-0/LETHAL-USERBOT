@@ -48,19 +48,7 @@ For any query or want to know how it works join Group And Channel</h3>
 <a aria-hidden="true" class="anchor" href="https://github.com/hellboi-atul/hellboi-atul/blob/master/README.md#get-string-session-from-repl-run" id="user-content-get-string-session-from-repl-run" style="background-color: initial; box-sizing: border-box; color: #0366d6; float: left; line-height: 1; margin-left: -20px; padding-right: 4px; text-decoration-line: none;"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path></svg></a><a href="https://github.com/jarvis210904/J.A.R.V.I.S-Userbot#get-string-session-from-repl-run" id="user-content-get-string-session-from-repl-run" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"></a>GET STRING SESSION FROM REPL RUN</h2>
 <div style="box-sizing: border-box;">
 <a href="https://replit.com/@LETHALARMY/LETHAL-STRING-SESSION#main.py"><img alt="Run on Repl.it" src="https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
-<h3 style="box-sizing: border-box; font-size: 1.25em; line-height: 1.25; margin-bottom: 16px; margin-top: 24px;">
-<a aria-hidden="true" class="anchor" href="https://github.com/hellboi-atul/hellboi-atul/blob/master/README.md#the-normal-way" id="user-content-the-normal-way" style="background-color: initial; box-sizing: border-box; color: #0366d6; float: left; line-height: 1; margin-left: -20px; padding-right: 4px; text-decoration-line: none;"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path></svg></a><a href="https://github.com/hellboi-atul/hellboi-atul#the-normal-way" id="user-content-the-normal-way" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"></a>The Normal Way</h3>
-<div style="box-sizing: border-box;">
-Simply clone the repository and run the main file:</div>
-<div style="box-sizing: border-box;">
-<pre style="background-color: #f6f8fa; border-radius: 6px; box-sizing: border-box; font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace; font-size: 13.6px; line-height: 1.45; margin-bottom: 16px; overflow-wrap: normal; overflow: auto; padding: 16px;">git clone https://github.com/hellboi-atul/hellboi-atul/
-<span style="box-sizing: border-box;">cd</span> Userbot
-virtualenv -p /usr/bin/python3 venv
-<span style="box-sizing: border-box;">.</span> ./venv/bin/activate
-pip install -r requirements.txt
-<span style="box-sizing: border-box;"><span style="box-sizing: border-box;">#</span> &lt;Create local_config.py with variables as given below&gt;</span>
-python3 -m userbot</pre>
-</div>
+
 <div style="box-sizing: border-box;">
 An example&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); border-radius: 6px; box-sizing: border-box; font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em;">local_config.py</code>&nbsp;file could be:</div>
 <div style="box-sizing: border-box;">
