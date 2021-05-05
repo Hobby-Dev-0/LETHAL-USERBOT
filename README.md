@@ -1,4 +1,4 @@
-# POWERED BY LETHAL ARMY
+# THIS USERBOT IS DEVELOPING DONT DEPLOY UNTIL TOTALLY DEVELOPED
  [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LETHAL-ARMY/LETHAL-USERBOT)
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
