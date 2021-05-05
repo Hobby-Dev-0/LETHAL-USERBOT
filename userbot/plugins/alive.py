@@ -14,7 +14,7 @@ from userbot.utils import admin_cmd, sudo_cmd
 from userbot import ALIVE_NAME, Lastupdate
 from . import dcdef
 from telethon.tl.types import ChannelParticipantsAdmins
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LETHAL"
 
 
 global ghanti
